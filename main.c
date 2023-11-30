@@ -1,6 +1,8 @@
 #include <stdio.h>
-#include "ex3.c"
-#include "ex4.c"
+#include "ex3.h"
+#include "ex4.h"
+#include "ex5.h"
+#include "ex1_part2.h"
 
 void test1(int value)
 {
@@ -53,6 +55,10 @@ int main()
     //another exercises
     ex3();
     ex4();
+    ex5();
+
+    //part 2
+    ex1_part2();
 
     return 0;
 }

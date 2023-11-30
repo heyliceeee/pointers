@@ -1,7 +1,8 @@
 //
 // Created by Alice Dias on 11/29/2023.
 //
-#include "stdio.h"
+#include <stdio.h>
+#include "ex3.h"
 
 #define MAXINT 999
 #define MININT 0
@@ -30,7 +31,7 @@ void sum(int num1, int num2, long *result)
 int ex3()
 {
     int value1, value2;
-    long *result;
+    long result;
 
     value1 = getNumber(MININT, MAXINT, "enter one value: ");
     value2 = getNumber(MININT, MAXINT, "enter another value: ");

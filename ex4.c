@@ -2,6 +2,7 @@
 // Created by Alice Dias on 11/29/2023.
 //
 #include <stdio.h>
+#include "ex4.h"
 
 #define MININT 0
 #define MAXINT 999
@@ -64,11 +65,11 @@ void sort(int *v1, int *v2, int *v3)
 
 int ex4()
 {
-    int *v1=1, *v2=3, *v3=2;
+    int v1=1, v2=3, v3=2;
 
     sort(&v1, &v2, &v3);
 
-    printf("%d > %d > %d", v1, v2, v3);
+    printf("%d > %d > %d\n", v1, v2, v3);
 
     return 0;
 }

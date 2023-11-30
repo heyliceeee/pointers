@@ -1,6 +1,7 @@
 # ninja log v5
-2	142	7230018775514765	CMakeFiles/pointers.dir/main.c.obj	a0f4e25054f05aee
-143	323	7230018777271932	pointers.exe	f164e159e9595c47
-25	1367	7230018163982615	CMakeFiles/pointers.dir/ex3.c.obj	a27dfaa373ea4236
-12	170	7230019468664469	CMakeFiles/pointers.dir/ex4.c.obj	9125382f1819feef
-3	117	7230019700279833	CMakeFiles/pointers.dir/main.c.obj	a0f4e25054f05aee
+3	525	7230396721891972	CMakeFiles/pointers.dir/main.c.obj	a0f4e25054f05aee
+108	278	7230397143384662	pointers.exe	86994b385dfd62d2
+11	520	7230396721842002	CMakeFiles/pointers.dir/ex3.c.obj	a27dfaa373ea4236
+4	108	7230397141724746	CMakeFiles/pointers.dir/ex4.c.obj	9125382f1819feef
+2	533	7230426839725257	build.ninja	a1bc4c76f7024bbd
+33	1386	7230384306912696	CMakeFiles/pointers.dir/ex5.c.obj	346ff2b3ad503f97
