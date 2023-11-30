@@ -3,4 +3,4 @@ project(pointers C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(pointers main.c)
+add_executable(pointers main.c ex4.c)

@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "ex3.c"
+#include "ex4.c"
 
 void test1(int value)
 {
@@ -46,6 +48,11 @@ int main()
 
     test3(numbers, numbersLength);
     printArray(numbers, numbersLength, "<test3> outside value (numbers):");
+
+
+    //another exercises
+    ex3();
+    ex4();
 
     return 0;
 }
