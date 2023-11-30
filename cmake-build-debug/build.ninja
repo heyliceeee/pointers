@@ -91,6 +91,12 @@ build CMakeFiles/pointers.dir/ex3_part2.c.obj: C_COMPILER__pointers_Debug D$:/gi
   OBJECT_DIR = CMakeFiles\pointers.dir
   OBJECT_FILE_DIR = CMakeFiles\pointers.dir
 
+build CMakeFiles/pointers.dir/ex4_part2.c.obj: C_COMPILER__pointers_Debug D$:/githubProjects/pointers/ex4_part2.c || cmake_object_order_depends_target_pointers
+  DEP_FILE = CMakeFiles\pointers.dir\ex4_part2.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\pointers.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointers.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target pointers
@@ -99,7 +105,7 @@ build CMakeFiles/pointers.dir/ex3_part2.c.obj: C_COMPILER__pointers_Debug D$:/gi
 #############################################
 # Link the executable pointers.exe
 
-build pointers.exe: C_EXECUTABLE_LINKER__pointers_Debug CMakeFiles/pointers.dir/main.c.obj CMakeFiles/pointers.dir/ex3.c.obj CMakeFiles/pointers.dir/ex4.c.obj CMakeFiles/pointers.dir/ex5.c.obj CMakeFiles/pointers.dir/ex1_part2.c.obj CMakeFiles/pointers.dir/ex2_part2.c.obj CMakeFiles/pointers.dir/ex3_part2.c.obj
+build pointers.exe: C_EXECUTABLE_LINKER__pointers_Debug CMakeFiles/pointers.dir/main.c.obj CMakeFiles/pointers.dir/ex3.c.obj CMakeFiles/pointers.dir/ex4.c.obj CMakeFiles/pointers.dir/ex5.c.obj CMakeFiles/pointers.dir/ex1_part2.c.obj CMakeFiles/pointers.dir/ex2_part2.c.obj CMakeFiles/pointers.dir/ex3_part2.c.obj CMakeFiles/pointers.dir/ex4_part2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\pointers.dir
