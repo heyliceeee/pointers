@@ -53,9 +53,9 @@ int main()
 
 
     //another exercises
-    ex3();
-    ex4();
-    ex5();
+    //ex3();
+    //ex4();
+    //ex5();
 
     //part 2
     ex1_part2();
