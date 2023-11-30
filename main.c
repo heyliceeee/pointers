@@ -3,6 +3,7 @@
 #include "ex4.h"
 #include "ex5.h"
 #include "ex1_part2.h"
+#include "ex2_part2.h"
 
 void test1(int value)
 {
@@ -58,7 +59,8 @@ int main()
     //ex5();
 
     //part 2
-    ex1_part2();
+    //ex1_part2();
+    ex2_part2();
 
     return 0;
 }
